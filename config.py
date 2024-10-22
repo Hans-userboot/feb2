@@ -13,7 +13,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 API_ID = int(os.environ.get("API_ID", "22438605"))
 API_HASH = os.environ.get("API_HASH", "739d63e1ee9af76e1b0e554c7d11e93e")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001786794284"))
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001869860522"))
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://ytadjcut:oORvVKpTnRy2pwJAmGOGhizVO5WbGqKy@arjuna.db.elephantsql.com/ytadjcut")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
